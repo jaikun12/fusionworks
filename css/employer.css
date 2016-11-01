@@ -1,0 +1,263 @@
+body{
+	background-color:rgb(247,247,247);
+
+}
+
+#main-nav{
+	border-bottom:rgb(155,155,155) 1px solid;
+	min-height:15vh;
+	background-color:white;
+	font-family:HelveticaNeue;
+	font-weight:600;
+	min-width:800px
+}
+
+#greet{
+	margin-top:2em;
+	min-width:400px;
+
+}
+
+#greet-user{
+	margin-top:0em;
+	font-size:20px;
+	font-weight:500;
+	opacity:0;
+}
+
+#menu{
+	/*margin-top:1em;*/
+	font-size:22px;
+	font-family:Helveticaneue;
+	min-width:1000px;
+}
+
+#menu a{
+	color:rgb(75,75,75);
+	font-family:Helveticaneue;
+}
+
+#profile-body{
+	width:1200px;
+	border:rgb(155,155,155) 1px solid;
+	margin-top:4em;
+	background-color:white;
+	padding:4em;
+}
+
+
+.emp-logo{
+	height:100px;
+	width:300px;
+	float:right;
+}
+
+.profile-item{
+	padding:1em;
+
+}
+
+.stat{
+	font-size:12px;
+	color:rgb(155,155,155);
+}
+
+.logo-div{
+	width:300px;
+	height:100px;
+	float:left;
+}
+
+.prof-menu-icon{
+	width:150px;
+	height:100px;
+	
+	float:left;
+}
+
+.prof-menu-icon p{
+	margin-top:-10px;
+	font-family:Helveticaneue;
+	font-weight:500;
+	font-size:20px;
+}
+
+.prof-stats{
+	margin-top:20px;
+	width:350px;
+	height:100px;
+	float:left;
+	padding-left:20px;
+}
+
+.prof-stats div{
+	float:left;
+	margin-left:30px;
+}
+
+#profile-menu{
+	position:relative;
+	width:1000px;
+	margin:0 auto;
+
+}
+
+.vert-divider{
+	height:100px;
+	border-right:rgba(155,155,155,0.4) solid 1px;
+	float:left;
+}
+
+.rowdivider{
+	position:relative;
+	clear:both;
+
+	margin:0 auto;
+
+	width:1000px;
+	border-bottom:rgba(155,155,155,0.4) solid 1px;
+}
+
+.rowdivider-full{
+	position:relative;
+	clear:both;
+	margin:0 auto;
+	width:100%;
+	border-bottom:rgba(155,155,155,0.4) solid 1px;
+}
+
+.prof-section{
+	position:relative;
+	width:1000px;
+	margin:0 auto;
+	padding:30px 0px 30px 0px;
+}
+
+.l-blue{
+	color:#1e88e5;
+}
+
+.sm-padding{
+	padding:10px 0px 10px 0px;
+}
+
+.tbl-label{
+	
+	font-family:helveticaneue;
+	font-weight:600;
+	font-size:18px;
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+table th{
+	font-family:helveticaneue;
+	font-size:18px;
+	font-weight:600;
+}
+
+table td{
+	font-family:helveticaneue;
+	font-size:14px;
+	font-weight:500;
+}
+
+.green{
+	color:#2e7d32;
+}
+
+.orange{
+	color:#ff9800;
+}
+
+#appendix{
+	margin-top:5em;
+	background-color:rgb(50,50,50);
+	padding:3em;
+}
+
+#appendix h4{
+	color:white;
+	margin-bottom:2em;
+}
+
+#appendix ul li{
+	color:white;
+	margin-bottom:0.5em;
+}
+
+#appendix h5{
+	font-family:Segoe UI;
+	color: rgb(155,155,155);
+	font-size:18px;
+}
+
+#appendix .form-control{
+	background: rgb(100,100,100);
+}
+
+.sns-icon{
+	height:5vh;
+	margin-right:0.5em;
+}
+
+.pagination{
+	float:right;
+}
+
+.post-btn{
+	background-color:#1e88e5;
+	color:white;
+	font-size:20px;
+	font-weight:600;
+	font-family:helveticaneue;
+	width:300px;
+	height:50px;
+
+}
+
+.post-btn:hover{
+	color:white;
+}
+
+.post-btn img{
+	height:25px;
+	width:25px;
+	margin-bottom:10px;
+}
+
+.emphasis{
+	font-weight:700;
+}
+
+
+.form-horizontal .control-label{
+	text-align:left;
+}
+
+.form-section{
+	position:relative;
+	width:900px;
+	margin:0 auto;
+	padding:30px 0px 30px 0px;
+}
+
+.graybg .form-control{
+	background-color:rgb(247,247,247);
+}
+
+#submitall{
+	color:#1e88e5;
+	background:white;
+	border-color:#1e88e5;
+	border-radius:0;
+	border-width:2px;
+	width:200px;
+	height:50px;
+	font-size:24px;
+	font-family:helveticaneue;
+	font-weight:600;
+}
+

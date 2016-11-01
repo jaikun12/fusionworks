@@ -1,0 +1,242 @@
+body{
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+h1{
+	font-size:64px;
+}
+
+p{
+	font-size:28px;
+	max-width:60%;
+}
+
+
+
+#landing-slide{
+	min-height:100vh;
+	width:100vw;
+	border:solid black 20px;
+	background-image: url("../img/banner-11.gif");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	max-width:100%;
+}
+
+
+
+.slide{
+	position:relative;
+	min-height:100vh;
+	width:100vw;
+	border:solid black 20px;
+	background-image: url("../img/slidebg.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	max-width:100%;
+
+}
+
+.overlay{
+	position:absolute;
+	min-height:99vh;
+	width:98%;
+	margin-top:;
+	background-color:rgba(0,0,0,0.4);
+	
+}
+
+#banner-div{
+	position:relative;
+	width:100%;
+
+	
+	
+
+}
+
+#banner-div h1{
+	font-family: 'raleway', sans-serif;
+	color:white;
+	font-size:98px;
+	font-weight:600;
+	margin-top:300px;
+
+}
+
+#banner{
+	height:100px;
+	width:300px;
+}
+
+.item-row{
+	width:1000px;
+	margin:0 auto;
+	border:solid white 2px;
+	padding-left:140px;
+}
+
+.item-row a{
+	float:left;
+	background-color:rgba(0,0,0,0);
+	font-family: 'Monoton', sans-serif;
+	color:white;
+	border:solid white 5px;
+	font-size:30px;
+	margin-right:62px;
+	margin-top:50px;
+
+}
+
+
+
+.leftmost{
+
+}
+
+.main-nav{
+	max-width:99vw;
+	width:98%;
+	margin:0 auto;
+	padding-left:30px;
+	position:fixed;
+	display:none;
+	z-index:1;
+	background-color:white;
+	
+
+}
+
+.main-nav a{
+	float:left;
+	background-color:rgba(0,0,0,0);
+	font-family: 'Raleway', sans-serif;
+	color:rgb(50,50,50);
+	/*border:solid rgb(50,50,50) 5px;*/
+	font-size:30px;
+	margin-right:62px;
+	margin-top:15px;
+	box-shadow:none;
+	
+
+}
+
+.main-nav img{
+	float:left;
+	margin-right:62px;
+}
+
+.center-content{
+	position:relative;
+	width:100%;
+	margin-top:150px;
+	font-family: 'Titillium Web', comic;
+	color:white;
+}
+
+#services-row{
+	
+	margin:0 auto;
+	width:100%;
+	
+	padding-top:50px;
+
+}
+
+.services-item{
+
+	position:relative;
+
+	
+	border-right:solid white 1px;
+	margin-bottom:50px;
+	
+	height:500px;
+
+}
+
+.services-item img{
+	position:relative;
+	height:100px;
+	width:100px;
+	margin-top:20px;
+}
+
+.services-item ul{
+	margin-top:30px;
+	font-size:16px;
+}
+
+.work-image{
+	min-width:300px;
+	min-height:250px;
+	float:left;
+	margin-top:50px;
+	height:30vh;
+	width:30vw;
+	border:solid white 5px;
+
+}
+
+.clients{
+	background-color:white;
+	margin-top:50px;
+}
+
+.clients img{
+	margin-left:30px;
+}
+
+.contact-trig{
+	color:white;
+	text-decoration:none;
+	font-family: 'titillium web';
+	font-size:28px;
+	font-weight:600;
+	border:solid white 5px;
+	position:relative;
+	margin-top:100px;
+	background:none;
+	width:400px;
+}
+.rightmost{
+	margin-right:0px;
+	border:none;
+}
+
+.contact-trig:hover{
+	text-decoration:none;
+	color:red;
+	background:white;
+}
+
+.modal-content{
+	margin-top:100px;
+	padding:20px;
+	border-radius:5px;
+}
+
+#contactmodal-body{
+	height:700px;
+	border:rgb(200,200,200) 1px solid;
+	background-image:url(../images/contactbg.jpg);
+	background-size:cover;
+}
+
+.row-divider{
+	border-bottom:solid 1px white;
+}
+
+.content{
+	position:relative;
+	width:100%;
+	margin-top:0px;
+	font-family: 'Titillium Web', comic;
+	color:white;
+}
+
+.content h1{
+	font-size:28px;
+	font-family:'raleway';
+}
